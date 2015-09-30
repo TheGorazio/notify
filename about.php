@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>About #Notify</title>
-	<link rel="stylesheet" type="text/css" href="css/aboutcss.css">
-</head>
-<body>
+<?php 
 
-	<div class="main">
-		
-		
-	</div>
+	include 'header.php'
+?>
 
-</body>
-</html>
+<?php include 'footer.php'?>
