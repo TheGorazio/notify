@@ -3,6 +3,7 @@
 	margin: 0;
 
 	font-family: 'sans-serif';
+
 }
 
 header {
@@ -13,12 +14,45 @@ header {
 	line-height: 40px;
 	height: 40px;
 	width: 100%;
+
+	box-shadow: 0 2px 5px rgba(12,12,12,0.8);
+
+}
+
+header .navigate {
+	list-style: none;
+}
+
+header .navigate li {
+	float: left;
+	width: 20%;
+
+	display: block;
+
+	cursor: pointer;
+}
+
+header .navigate li a {
+	color: black;
+	text-decoration: none;
+}
+
+header .navigate li:hover {
+	text-shadow: 1px 1px 1px rgba(12,12,12,0.5);
+}
+
+header h1 {
+	float: left;
+	padding-left: 1em;
+
+	cursor: pointer;
+
+	color: black;
 }
 
 .label {
 	width: 90%;
 	height: 400px;
-
 
 	margin: 0 auto;
 }
