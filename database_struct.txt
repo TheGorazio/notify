@@ -1,0 +1,16 @@
+Структура базы данных #Notify
+
+Таблица № 1 - Users
+> login
+> password
+> email - primary key
+
+Таблица № 2 - Posts
+> topic
+> content
+> img
+> created by (Users>email)
+> created date
+
+
+
