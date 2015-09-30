@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+
+	font-family: 'sans-serif';
+}
+
+header {
+	background-color: #dbdbdb;
+
+	text-align: center;
+	
+	line-height: 40px;
+	height: 40px;
+	width: 100%;
+}
+
+.label {
+	width: 90%;
+	height: 400px;
+
+
+	margin: 0 auto;
+}
+
+.img_placeholder {
+	width:  200px;
+	height: 200px;
+
+	border-radius: 8px;
+
+	position: relative;
+	top: 50%;
+	left: 50%;
+
+	transform: translateX(-50%);
+
+	background-color: #dbdbdb;
+}
