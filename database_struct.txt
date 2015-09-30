@@ -3,7 +3,8 @@
 Таблица № 1 - Users
 > login
 > password
-> email - primary key
+> email - primary key unique
+> nick unique
 
 Таблица № 2 - Posts
 > topic
@@ -11,6 +12,19 @@
 > img
 > created by (Users>email)
 > created date
+> channel (id)
+
+Таблица № 3 - Channels
+> name
+> owner
+> category
+> id 
+
+Таблица № 4 - Chats
+> name unique
+> owner (User email/nick)
+> type (public/private)
+> category
 
 
 
